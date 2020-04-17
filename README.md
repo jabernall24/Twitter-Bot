@@ -14,9 +14,9 @@
         - repeat for the other keys (ACCESS_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
         
 
-1. Gets user's most common tweeted out words from previous month based on a command
+## Gets user's most common tweeted out words from previous month based on a command
 
-### Set up
+#### Set up
 
 1. Create Lambda Layer from ```wordcloud-twython.zip``` if you haven't yet
     - Go to AWS Lambda
@@ -49,9 +49,9 @@
     - For running every minute ```rate(1 minute)```
 
 
-2. Tweet out user's most common tweeted out words from previous month by getting Twitter handle from DynamoDB Table
+## Tweet out user's most common tweeted out words from previous month by getting Twitter handle from DynamoDB Table
 
-### Set up
+#### Set up
 
 1. Create Lambda Layer from ```wordcloud-twython.zip``` if you haven't yet
     - Go to AWS Lambda
