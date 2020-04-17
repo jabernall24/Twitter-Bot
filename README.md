@@ -1,6 +1,14 @@
 
 # Twitter Bot
 
+```
+Twitter Bot does 2 things
+    - If the following is tweeted out '@jabernall24' wordcloud lm' my bot detects it and generates a word cloud of the person's previous month most common tweeted words
+    - Once a week it tweets out a wordcloud of a random twitter handle that is stored in DynamoDB
+```
+
+## Instructions to run it yourself
+
 #### Set up SSM Parameter store
     -  Get Twitter API Keys
     - Go to AWS System Manger
